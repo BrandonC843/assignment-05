@@ -1,89 +1,110 @@
 *{
   box-sizing: border-box;
 }
-img {
-  display: block;
-  width: 100%;
-}
+
 body{
   font-family: "Helvetica Neue", "Helvetica", "sans-serif";
 }
 #app-container{
-  width:1400;
-  height:auto;
-}
-.navbar-container {
-  display: inline-block;
-  vertical-align: top;
-  font-size: medium;
-  background-color: black;
   width:100%;
 
 }
-.body-column{
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-}
-
-.top-container-column{
-  display: inline-block;
-  vertical-align: top;
-  font-size: medium;
-}
-.list2-container{
-display: inline;
-vertical-align: top;
-width: 100%;
-margin-left: 20px;
-border-bottom: 2px solid grey;
-
-}
-.upcoming-column {
+.navbar-container{
   width:100%;
-  display: inline-block;
-  vertical-align: top;
-  font-size: medium;
-  text-align: right;
+  color:white;
+  background-color: #373737
+
 }
-.upcoming-column img{
-  width: 100px;
-  height: 100px;
-  margin-left: 450px;
+.navbar-logos-container{
+   display: block;
+   vertical-align:top;
+   font-size: 0;
+   width: 80%;
+}
+.logo-short{
+   display: inline-block;
+   width:30%;
+   font-size: medium;
+}
+.logo-label-long{
+   display: inline-block;
+   font-size: medium;
+   vertical-align: top;
+   width: 70%;
+}
+.logo-short img{
+   width: 100%;
+   display:block;
+   height: 75px;
 }
 
-.history-column {
+.logo-label-long img{
+   width: 100%;
+   display: block;
+   height:75px;
+}
+.navbar-container ul{
+   padding-left: 5px;
+   list-style: none;
+   display: inline-block;
+   margin-bottom:10px
+}
+.navbar-container li{
+   display: inline-block;
+   padding-right:15px;
+   padding-left:15px;
+}
+.secondary-nav ul{
+   padding-left: 15px;
+   list-style:none;
+   display: inline-block;
+   margin-bottom: 15px;
+}
+.secondary-nav li{
+   display: inline-block;
+   padding-right: 15px;
+   padding-left: 10px;
+   list-style: none;
+   border: 1px solid black;
+   
+}
+
+
+
+.upcoming-events-container{
+   height: 450px;
+
+}
+.single-event h3{
+   font-size:
+}
+.single-event{
+   font-size:medium;
+   display:block;
+   vertical-align: top;
+   text-align: right;
+   height: 161px;
+}
+.image-column{
+   width: 921px;
+   height: 0px;
+}
+
+.history-container {
+margin-top: -550px;
 display: inline-block;
-vertical-align: top;
-font-size: medium;
+width: 900px;
+border-bottom: solid 1px grey;
 }
-.about-container{
-  display: inline-block;
+
+
+.about-container {
   width: 70%;
-  height: -200px;
-  border-bottom: solid 1px grey;
+  font-size: medium
 }
-.legacy-container {
-  display:inline-block;
-  width: 70%;
-  height:150px;
-  border-bottom: solid 1px grey;
-}
-.future-container {
-  display: inline-block;
-  width: 50%;
-  color: red;
-  border-bottom:1px grey solid;
-}
-.future-container img{
-  display:inline-block;
-  width: 50%;
-  height: 300px;
-  margin-left: 100%;
-  margin-top: -165px;
-}
-.future-container h1{
-  font-size: 20px;
+.legacy-container{
+  font-size: medium;
+  width:70%;
 }
 
 .middle1-container{
@@ -91,26 +112,44 @@ font-size: medium;
   vertical-align: top;
   font-size: medium;
 }
-.Alfred-column{
-  display: inline-block;
-  vertical-align: top;
-  font-size: medium;
+
+
+
+.future-container {
+  border-bottom:1px grey solid;
+  display:inline-block;
 }
-.school-image-container{
-  width: 100%;
+.future-container p{
+   padding-top: 35px;
+   padding-bottom: 10px;
 }
-.Architect-container {
-background-color: red;
-width: 100%;
-margin-left: 400px;
+.sha-column{
+   display:inline-block;
+   vertical-align: top;
+   padding-top: 0px;
+   width:40%;
+   font-size: medium;
 }
-.school-image-container img {
-  display: inline-block;
-  width: 30%;
-  padding-bottom: 50px;
+.future-img{
+  display:inline-block;
+  width: 50%;
+  padding-left: 35px;
 }
 
-.alert-bar-container {
+.glassell-column{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  font-size: medium;
+}
+.alfred-img{
+   display: inline-block;
+   width:30%;
+
+}
+
+
+.box-fixed {
   position: fixed;
   padding:10px;
   color: white;
@@ -127,12 +166,13 @@ margin-left: 400px;
     color: #8b0000;
     font-size: 24px;
 }
-
-.footer-container p {
-background-color: purple;
-  font-size: 15px;
+.footer-container li {
+  font-size: 12px;
+  padding: 5px;
+  margin: 5px;
   display: inline-block;
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: 100px;
+}
+.footer-container i{
+   color: #DB4B38;
+   margin-left: 3px;
 }
