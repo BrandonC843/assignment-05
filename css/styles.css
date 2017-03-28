@@ -56,8 +56,8 @@ body{
 }
 .navbar-container li{
    display: inline-block;
-   padding-right: 17px;
-   padding-left: 17px;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 .secondary-nav ul{
    list-style:none;
@@ -66,8 +66,8 @@ body{
 }
 .secondary-nav li{
    display: inline-block;
-   padding-right: 15px;
-   padding-left: 10px;
+   padding-right: 4px;
+   padding-left: 4px;
    list-style: none;
    border: 1px solid black;
    background-color: #FCF7E5;
@@ -77,9 +77,14 @@ body{
 .primary-column-container{
    font-size: 0;
    display: inline-block;
-   width: 72%;
+   width: 70%;
+   padding-left: 20px;
 }
-
+.left-content-container h3{
+   color: black;
+   font-weight: bold;
+   font-size: 38px;
+}
 .left-content-container{
    display: inline-block;
    font-size: medium;
@@ -157,58 +162,76 @@ body{
    width: 100%;
    display: block;
 }
+/**********secondary-content-container**********/
 .secondary-content-container{
    width: 27%;
    display: inline-block;
    vertical-align: top;
    font-size: 0;
-   padding: 100px 5px 0px 25px;
+   padding: 110px 0px 0px 19px;
 }
 .right-side-container{
    width: 100%;
    font-size: medium;
 }
-right-side-container h3{
-   font-size: medium;
-
+.right-side-container h2{
+   text-align: left;
+   font-size: 33px;
+   margin-bottom: 0;
+}
+.right-side-container h3{
+   font-size: 15px;
+   color: blue;
 }
 .events-container,
-special-container {
+.special-container{
+   width: 70%;
+   display: flex;
+}
+
+.events-container,
+.special-container {
    font-size: medium;
-   padding: 15px 0px 15px 0px;
+   padding-top: 7px;
+   height: 132px;
 }
 .special-container{
    border-top: 3px dashed grey;
    border-bottom: 3px dashed grey;
+   display: flex;
+   padding-top: 12px;
 }
 .events-container img,
-special-container img{
-   width: 100%;
-   display: block;
+.special-container img{
+   width: 95%;
    vertical-align: top;
+   margin-right: 7px;
 }
 .events-image-column{
-   width: 35%;
+   width: 50%;
    font-size: medium;
    display: inline-block;
    vertical-align: top;
 }
 .events-info-column{
    display: inline-block;
-   width: 70%;
+   width: 50%;
    vertical-align: top;
+
+}
+h4{
+   margin: 0;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #afa1a1;
+   font-size: 9px;
 }
 h5{
-   margin: 0;
-   padding-top: 5px;
-   padding-bottom: 4px;
-   color: #afa1a1;
-}
-h3{
    color: #349EC1;
-   font-weight: bold;
+   font-size: small;
    margin: 0;
 }
+
 /*///////////////////////foooooter///////area//////////*/
 
 .footer-container{
