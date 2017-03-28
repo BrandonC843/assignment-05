@@ -108,7 +108,7 @@ body{
    margin: 2px 5px 2px 2px;
 }
 
-.tab-container .mfah-tab{
+.tab-container .title-mark{
    background-color: #DCEDF6;
    color: #5A5955;
 }
@@ -167,16 +167,18 @@ body{
    width: 27%;
    display: inline-block;
    vertical-align: top;
-   font-size: 0;
+
    padding: 110px 0px 0px 19px;
 }
 .right-side-container{
    width: 100%;
    font-size: medium;
+   padding-top: 33px;
 }
 .right-side-container h2{
    text-align: left;
    font-size: 33px;
+   padding-bottom: 45px;
    margin-bottom: 0;
 }
 .right-side-container h3{
@@ -185,27 +187,27 @@ body{
 }
 .events-container,
 .special-container{
-   width: 70%;
+   width: 80%;
    display: flex;
 }
 
 .events-container,
 .special-container {
    font-size: medium;
-   padding-top: 7px;
-   height: 132px;
 }
 .special-container{
-   border-top: 3px dashed grey;
-   border-bottom: 3px dashed grey;
+   border-top: 1px dotted grey;
+   border-bottom: 1px dotted grey;
    display: flex;
    padding-top: 12px;
 }
 .events-container img,
 .special-container img{
-   width: 95%;
+   width: 80%;
    vertical-align: top;
    margin-right: 7px;
+   padding-top: 7px;
+   padding-bottom: 7px;
 }
 .events-image-column{
    width: 50%;
@@ -221,15 +223,19 @@ body{
 }
 h4{
    margin: 0;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 3px;
+   padding-bottom: 3px;
    color: #afa1a1;
    font-size: 9px;
 }
 h5{
-   color: #349EC1;
+   color: blue;
    font-size: small;
    margin: 0;
+}
+.special-container,
+.events-container p{
+   font-size: 12px;
 }
 
 /*///////////////////////foooooter///////area//////////*/
@@ -290,8 +296,8 @@ h5{
    width: 85%;
 }
 .search-bar i{
-   background-color: #cdc9c9;
+   background-color: lightgrey;
    color: white;
-   width: 15%;
-   Padding: 5px 5px 5px 5px;
+   width: 12%;
+   Padding: 1px 3px 3px 3px;
 }
